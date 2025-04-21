@@ -1,13 +1,15 @@
-## win-starter
+<h1>win-starter</h1> 
 A personal guide to installing Windows 10 and setting up.
+<br>
+<br>
 
-#Installing Windows on a USB with a Windows PC
+<h2>Installing Windows on a USB with a Windows PC</h2>
 - Navigate to https://www.microsoft.com/en-us/software-download/windows10%20
 - Download the installation media
 - Run the installation media found in your Downloads folder
 - Proceed with installation as normal
 
-#Installing Windows on a USB with a Linux and MacOS
+<h2>Installing Windows on a USB with a Linux and MacOS</h2>
 - Navigate to https://www.microsoft.com/en-us/software-download/windows10%20
 - Download the .iso file for Windows 10
 - Navigate to https://etcher.balena.io/ and install Etcher
@@ -16,7 +18,7 @@ A personal guide to installing Windows 10 and setting up.
 - Click "Flash" and wait until it's finished
 
 
-#Installing Windows 10
+<h2>Installing Windows 10</h2>
 - Insert your USB in your Computer or Laptop before turning it on
 - Spam your motherboard manufacturer's boot key upon startup (Search up your laptop brand or Motherboard brand or refer to my list below/)
 - Select your USB which should be shown in the boot menu
@@ -24,7 +26,7 @@ A personal guide to installing Windows 10 and setting up.
   - If you have any drives you would like to clear, you can format them during installation or delete all the partitions in the drive.
 - After it has finished you should boot into the Windows 10 setup screen with Cortana greeting you.
 
-#Windows 10 setup
+<h2>Windows 10 setup</h2>
 - I prefer to set up my Windows 10 system by removing my Wi-Fi dongle which allows me to select "I don't have internet". This makes it so that Windows doesn't bombard me with tons of bloatware and updates before I even get into my system.
 - I would recommend deselecting every option where Microsoft asks for permissions to things such as location data and handwritting data.
 
@@ -38,9 +40,11 @@ A personal guide to installing Windows 10 and setting up.
 - Install the GPU driver
 - Change my refresh rate to the highest possible (Windows+I > System > Display > Scroll-down to "Advanced Display Settings" > Refresh rate (Only available after you install your GPU drivers).
 - Restart PC when required as some Windows updates require you to restart.
+- Disable options from Settings > Security
 - (Optional) I personally use TransluscentTB for every Windows system in order to make my Taskbar transparent found here: https://github.com/TranslucentTB/TranslucentTB
 - (Optional) Declutter the Taskbar (Right click the taskbar and disable Cortana, Task View, Search > Hidden, News and interests > Turn off.)
 - (Optional) Reduce the space the Taskbar takes (Windows+I > Personalisation > Taskbar > Use small taskbar buttons.)
+- (Optional - gpedit) Disable optional automatic updates (gpedit.msc > Comp Config > Win Components > Win Update > Config Auto Updates > Disabled.)
 
 
 
